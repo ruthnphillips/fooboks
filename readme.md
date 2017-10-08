@@ -1,2 +1,2 @@
 # Foobooks
-<http://foobooks.ruthp.me>
+<http://fooboks.ruthp.me>
