@@ -16,4 +16,11 @@ class BookController extends Controller
 	{
 		return 'You selected '.$title;
 	}
+
+	/**public function show($title = null)
+	{
+	    dump($title);
+	    return view('books.show');
+	}
+    **/
 }
