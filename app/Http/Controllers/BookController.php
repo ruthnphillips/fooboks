@@ -12,15 +12,15 @@ class BookController extends Controller
 		return 'This is the book list';
 	}
 
+	/**
+	* GET
+	* /books/{title?}
+	*/
 	public function show($title)
-	{
-		return 'You selected '.$title;
-	}
+    {
+        return view('book.show')->with([
+            'title' => $title
+        ]);
+    }
 
-	/**public function show($title = null)
-	{
-	    dump($title);
-	    return view('books.show');
-	}
-    **/
 }
